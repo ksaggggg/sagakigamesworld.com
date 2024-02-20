@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Games, Interview, Minecraft, Social Networks">
+    <meta name="description" content="This site has information about me and Minecraft">
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.EPDgC0oPLZnFgKV6eIhpzgHaG5?rs=1&pid=ImgDetMain"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games World</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            will-change: transform;
+        }
+
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 200px;
+            height: 100vh;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            transition: width 0.3s ease-in-out;
+            overflow: hidden;
+        }
+
+        .sidebar:hover {
+            width: 220px;
+        }
+
+        .sidebar h1 {
+            margin: 0;
+            transition: font-size 0.3s ease-in-out;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        .sidebar ul {
+            padding: 0;
+            margin-top: 20px;
+            list-style: none;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s ease-in-out;
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        .sidebar ul li a:hover {
+            color: #ddd;
+            background-color: #555;
+        }
+
+        .main-content {
+            margin-left: 220px;
+            padding: 20px;
+            flex-grow: 1;
+            will-change: transform;
+            text-align: center;
+            transition: margin-left 0.3s ease-in-out;
+        }
+
+        .main-content h1 {
+            color: #333;
+            font-size: 2em;
+        }
+
+        .main-content p {
+            color: #555;
+            font-size: 1.2em;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+
+        .youtube-channel {
+            position: fixed;
+            right: -200px;
+            bottom: 20px;
+            width: 200px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: right 0.3s ease-in-out;
+        }
+
+        .youtube-channel:hover {
+            right: 0;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .youtube-channel img {
+            display: block;
+            margin: 0 auto;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+
+        .youtube-channel h2 {
+            text-align: center;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .youtube-channel p {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h1>🎮 Games World</h1>
+        <hr>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="game.html">Моя любимая игра</a></li>
+            <li><a href="contact.html">Связи</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Добро пожаловать на Games World</h1>
+        <hr>
+        <p>Привет! Я - Кирилл, 14-летний веб-разработчик из прекрасной Украины. Моя страсть - создавать виртуальные миры, которые не только визуально привлекательны, но и вдохновляют. Моя цель - внести свой вклад в улучшение мира, делая его более интересным и доступным через уникальные веб-сайты. Давайте совместно делать интернет прекраснее! 🚀</p>
+        <div class="image-container">
+            <img src="https://static.vecteezy.com/system/resources/previews/000/592/785/original/vector-html-icon.jpg" alt="html" width="300" height="300">
+        </div>
+    </div>
+    <div class="youtube-channel">
+        <img src="https://yt3.googleusercontent.com/PH7QQUmTUCwz3BFliMZ5Z6iyK1o3PumHGG5eIaG0pABsRT0ay5o1ObXNMKdjeTVOQMvvfl2C=s176-c-k-c0x00ffffff-no-rj" alt="Аватарка канала">
+        <h2>Ksaggggg</h2>
+        <p>Йоу, всем What`s up, с вами я - Ксаг! Добро пожаловать на мой канал, броу. Тут я буду снимать имбовый контент именно для тебя! Я попробую тебя ознакомить с потрясающим миром Minecraft. Залетай сюда с вкусняшками, Let`s go веселится! P.S. Подписку оформи, pls :D.</p>
+        <a href="https://www.youtube.com/channel/UC0LIDy7OvflTCtANMnJfOfw">Subscribe</a>
+    </div>
+    <div class="footer">
+        <p>© 2024 Game World. Все права защищены.</p>
+    </div>
+</body>
+</html>

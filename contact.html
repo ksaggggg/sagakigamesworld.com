@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Games, Interview, Minecraft, Social Networks">
+    <meta name="description" content="This site has information about me and Minecraft">
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.EPDgC0oPLZnFgKV6eIhpzgHaG5?rs=1&pid=ImgDetMain"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            will-change: transform;
+        }
+
+        .sidebar {
+            width: 200px;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            transition: all 0.3s ease-in-out;
+            will-change: width;
+        }
+
+        .sidebar:hover {
+            width: 220px;
+        }
+
+        .sidebar h1 {
+            margin: 0;
+            transition: all 0.3s ease-in-out;
+            font-size: 1.5em;
+        }
+
+        .sidebar:hover h1 {
+            font-size: 1.8em;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        .sidebar ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        .sidebar ul li a:hover {
+            color: #ddd;
+            background-color: #555;
+        }
+
+        .main-content {
+            margin-left: 220px;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: stretch;
+            will-change: transform;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 40%;
+            border-radius: 5px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            will-change: transform;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .youtube-channel {
+            position: fixed;
+            right: -200px;
+            bottom: 20px;
+            width: 200px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: right 0.3s ease-in-out;
+        }
+
+        .youtube-channel:hover {
+            right: 0;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .youtube-channel img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+
+        .youtube-channel h2 {
+            text-align: center;
+            margin: 10px 0;
+            color: #333;
+            font-size: 1.2em;
+        }
+
+        .youtube-channel p {
+            font-size: 14px;
+            color: #777;
+            text-align: center;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            font-size: 0.8em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h1>🎮 Games World</h1>
+        <hr>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="game.html">Моя любимая игра</a></li>
+            <li><a href="contact.html">Связи</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="card">
+            <div class="container">
+                <h4><b>📧 Почта</b></h4>
+                <img class="icon" src="https://th.bing.com/th/id/R.11f1bc399cf00bf9d989ba6133cbd03c?rik=01lnZulBuA8jnQ&riu=http%3a%2f%2fpngimg.com%2fuploads%2fgmail_logo%2fgmail_logo_PNG12.png&ehk=Mhsx4Y5wrusNTFOgK8skfdXnVeV3a0JAvZN%2fj%2byOw2k%3d&risl=&pid=ImgRaw&r=0" alt="Почта" width="50" height="50">
+                <p>kirill.sagadeev1603@gmail.com</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="container">
+                <h4><b>💬 Discord</b></h4>
+                <img class="icon" src="https://bestsecuritysearch.com/wp-content/uploads/2016/10/discord-logo-bss.png" alt="Дискорд" width="50" height="50">
+                <p>ksaggggg_</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="container">
+                <h4><b>📱 Telegram</b></h4>
+                <img class="icon" src="https://pluspng.com/img-png/telegram-logo-png-open-2000.png" alt="Телеграм" width="50" height="50">
+                <p>ksaggggg</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="container">
+                <h4><b>Социальные сети</b></h4>
+                <img class="icon" src="https://www.freelogovectors.net/wp-content/uploads/2016/12/instagram-logo1.png" alt="Инстаграм" width="50" height="50">
+                <p>Instagram - ksaggggg_</p>
+            </div>
+        </div>
+        <div class="youtube-channel">
+            <img src="https://yt3.googleusercontent.com/PH7QQUmTUCwz3BFliMZ5Z6iyK1o3PumHGG5eIaG0pABsRT0ay5o1ObXNMKdjeTVOQMvvfl2C=s176-c-k-c0x00ffffff-no-rj" alt="Аватарка канала">
+            <h2>Ksaggggg</h2>
+            <p>Йоу, всем What`s up, с вами я - Ксаг! Добро пожаловать на мой канал, броу. Тут я буду снимать имбовый контент именно для тебя! Я попробую тебя ознакомить с потрясающим миром Minecraft. Залетай сюда с вкусняшками, Let`s go веселится! P.S. Подписку оформи, pls :D.</p>
+            <a href="https://www.youtube.com/channel/UC0LIDy7OvflTCtANMnJfOfw">Subscribe</a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2024 Game World. Все права защищены.</p>
+    </div>
+</body>
+</html>
